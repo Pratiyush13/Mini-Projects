@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #37392E;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #EEE5E5;
+}
+
+.container{
+    background-color:  #DDCECD;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    min-width: 250px;
+}
+
+.amount{
+    margin-top: 1rem;
+}
+
+.amount input{
+    outline: none;
+    border: none;
+    background-color: #DDCECD;
+    min-width: 100%;
+    border-radius:0.5rem;
+    height: 1.5rem;
+    padding-left:2px;
+    font-size: larger;
+}
+
+hr{
+    border: 1px solid black;
+}
+
+.from-to-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0 1rem 0;
+}
+
+.from-to-container select{
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-color: #f3e1dfb0;
+}
+
+.select{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#f3e1dfb0;
+    padding: 0 5px 0 5px;
+    border-radius: 10px;
+    width: 240px;
+    height:50px;
+}
+
+.select img{
+    height: 60px;
+    width: 60px;
+}
+
+.ex-symb{
+    margin-top: 1rem;
+}
+
+.msg{
+    margin: 1.5rem 0 1.5rem 0;
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+}
+
+button{
+    min-width: 100%;
+    height: 35px;
+    border-radius:0.5rem;
+    border: none;
+    background-color: #19647E;
+    cursor: pointer;
+    color: white;
+}
+
+button:active{
+    background-color: #28AFB0;
+}
